@@ -40,13 +40,14 @@ So, accordingly manipulate the business strategy to meet the demand levels and m
        - [RFE](#RFE)
        - [Manual Feature Selection](#Manual-Feature-Selection)
 5. [Model Evaluation](#Model-Evaluation)
-       - [Residual Analysis](#Residual-Analysis)
-       - [Model Evaluation using Test data](#model-Evaluation-using-Test-data)
-       - [Model Efficiency](#Model-Efficiency)
+   - [Residual Analysis](#Residual-Analysis)
+   - [Model Evaluation using Test data](#model-Evaluation-using-Test-data)
+   - [Model Efficiency](#Model-Efficiency)
 
 ## Conclusions
 ```
  cnt  = 0.1481-0.0994 * holiday + 0.5408 * temp -0.1615 * windspeed + 0.0722 * season _ summer + 0.1153 * season_winter + 0.2331 * yr_2019-0.0442 * mnth_JAN -0.0398 * mnth_JUL +0.0898 * mnth_SEP-0.2845 * weathersit_Light Snow -0.0798 * weathersit_Mist Cloudy 
+ 
 ```
 
 Following are the predictor impacting demand in order highest to lowest
